@@ -7,7 +7,7 @@
  * # CKE
  * Provider in the ngCkeditorApp.
  */
-angular.module('ngCkeditorApp')
+angular.module('ngCkeditor', [])
   .value('CKEDITOR', window.CKEDITOR)
   .provider('CKE', function CKEProvider() {
 

@@ -12,5 +12,6 @@ angular
   .module('ngCkeditorApp', [
     'ngCookies',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch',
+    'ngCkeditor'
   ]);

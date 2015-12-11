@@ -6,7 +6,7 @@
  * @description
  * # ckeditor
  */
-angular.module('ngCkeditorApp')
+angular.module('ngCkeditor')
   .directive('ckeditor', ['$rootScope', '$sce', 'CKE', function ($rootScope, $sce, CKE) {
     return {
       require: ['ngModel', '^?form'],
